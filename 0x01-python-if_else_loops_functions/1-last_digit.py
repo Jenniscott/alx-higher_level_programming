@@ -10,5 +10,5 @@ if remainder > 5:
     print("Last digit of {number :d} is {remainder :d} and is greater than 5")
 elif remainder == 0:
     print("Last digit of {number :d} is {remainder :d} and is zero")
-else remainder < 6:
+else:
     print("Last digit of {number :d} is {remainder :d} and is less than 6 and not zero")
