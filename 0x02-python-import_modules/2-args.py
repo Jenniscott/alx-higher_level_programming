@@ -1,5 +1,5 @@
 #!/usr/bin/pythion3
-if __name__ = "__main__":
+if __name__ == "__main__":
         import sys
 
         if arg == 0:
@@ -10,4 +10,4 @@ if __name__ = "__main__":
                 print("{} arguments: ".format(arg))
 
             for j in range(arg):
-                print("{} : {}".format(j+1, sys.arg(i+1))
+                print("{} : {}".format(j+1, sys.arg(i+1)))
